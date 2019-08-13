@@ -20,7 +20,7 @@ title                    : "Shirish Pandagare"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Shirish Pandagare"
-description              : "Data Science Portfolio."
+description              : "Data Science Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,15 +109,15 @@ analytics:
 author:
   name             : "Shirish Pandagare"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Aspiring Data Scientist."
   location         : "College Station, TX"
   email            :
   links:
     - label: "Email"
-      icon: "shirishpandagare@gmail.com"
-      # url: mailto:your.name@email.com
-    - label: "LinkedIn"
-      icon: "https://www.linkedin.com/in/shirishpandagare/"
+      icon: "fas fa-fw fa-envelope-square"
+      url: shirishpandagare@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -126,8 +126,8 @@ author:
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "https://github.com/shirishpandagare"
-      # url: "https://github.com/"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shirishpandagare"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -296,9 +296,9 @@ defaults:
       related: true
 
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  _scope:
+    path: ""
+    type: pages
+  values:
+    layout: single
+    author_profile: true
