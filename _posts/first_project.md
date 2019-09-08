@@ -1,21 +1,22 @@
 ---
-title: "Data Wrangling Project"
+title: "Natural Language Processing"
 date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+tags: [Topic Modeling, Sentiment Analysis, Text Mining]
 header:
   image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
 
-# H1 Heading
+# Topic Modeling with Amazon Automotive review dataset.
 
-## H2 Heading
+## Data Preprocessing
 
-### H3 Heading
-
+## LDA Model building
 Here's some basic text.
 
+
+## Visualization 
 And here's some *italics*
 
 Here's some **bold** text.
