@@ -10,10 +10,35 @@ mathjax: "true"
 
 ## Introduction
 
-In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm.In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon music review dataset since the focus is more on approaches to visualizing the results.
+In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm. In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon music review dataset since the focus is more on approaches to visualizing the results.
 
-Let’s begin by importing the packages and the loading the dataset.
+Let’s begin by importing the packages. The following are the packages imported for this project.
+
+Python code block:
+```python
+from nltk import FreqDist
+from nltk.corpus import stopwords
+import pandas as pd
+import re
+import spacy
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
 ## Import Amazon Music Review Dataset
+Let’s import the Amazon music review dataset
+news groups dataset and retain only 4 of the target_names categories.
+
+Python code block:
+```python
+    import numpy as np
+
+    def test_function(x, y):
+      z = np.sum(x,y)
+      return z
+```
+
+
 ## Clean, Tokenize, & Lemmatize
 ## Build the LDA Model
 
