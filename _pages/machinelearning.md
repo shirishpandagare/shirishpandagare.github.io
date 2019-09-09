@@ -4,7 +4,7 @@ permalink: /Natural-Langauge-Processing/
 title: "Natural Language Processing Posts by Tags"
 author_profile: true
 header:
-  image: "/images/wordcloud.png"
+  image: "/images/nlp.png"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
