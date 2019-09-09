@@ -10,8 +10,7 @@ mathjax: "true"
 
 ## Introduction
 
-In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm. In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon music review dataset since the focus is more on approaches to visualizing the results.
-
+In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm. In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon digital music review dataset for demonstration.
 Let’s begin by importing the packages. The following are the packages imported for this project.
 
 ```python
@@ -25,17 +24,14 @@ import seaborn as sns
 ```
 
 ## Import Amazon Music Review Dataset
-For this project, I am using Amazon review dataset which can be found [here](http://jmcauley.ucsd.edu/data/amazon/). 
-Let’s import the Amazon music review dataset
-news groups dataset and retain only 4 of the target_names categories.
 
-Python code block:
+For this project, I’ll use the review dataset from the [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/) repository of the University of California, San Diego. In this repository, there is a small sample dataset of the product reviews for each category. The parser I will develop can be applied to any of the product categories, however, I have selected [Digital Music reviews dataset](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Digital_Music_5.json.gz) for the sake of simplicity.
+
+The following function is to load the dataset from the repository:
 ```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
+def load_data(path):
+    data = pd.read_json(path)
+    return data
 ```
 
 
