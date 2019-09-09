@@ -1,7 +1,7 @@
 ---
-layout: posts
+layout: archive
 permalink: /Natural-Langauge-Processing/
-title: "Topic Modeling"
+title: "Natural Language Processing Posts by Tags"
 author_profile: true
 header:
   image: "/images/wordcloud.png"
