@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Shirish Pandagare"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Science Portfolio"
   location         : "College Station, TX"
   email            :
