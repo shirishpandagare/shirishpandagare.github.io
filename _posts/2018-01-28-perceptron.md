@@ -1,7 +1,7 @@
 ---
-title: "Topic Modeling"
+title: "Natural Language Processing: LDA Topic Modeling"
 date: 2018-01-28
-tags: [data wrangling, data science, messy data]
+tags: [LDA, Text Mining, Topic Modeling]
 header:
   image: "/images/wordcloud.png"
 excerpt: "Data Wrangling, Data Science, Messy Data"
