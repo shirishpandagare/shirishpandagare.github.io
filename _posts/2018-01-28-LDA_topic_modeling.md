@@ -8,15 +8,15 @@ excerpt: "LDA, Text Mining, Topic Modeling"
 mathjax: "true"
 ---
 
-# Introduction
-# Import Amazon Music Review Dataset
-# Clean, Tokenize, & Lemmatize
-# Build the LDA Model
+## Introduction
 
+In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm.In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon music review dataset since the focus is more on approaches to visualizing the results.
 
-## H2 Heading
+Let’s begin by importing the packages and the loading the dataset.
+## Import Amazon Music Review Dataset
+## Clean, Tokenize, & Lemmatize
+## Build the LDA Model
 
-### H3 Heading
 
 Here's some basic text.
 
