@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Natural Language Processing"
+  - title: "NLP"
     url: /Natural-Langauge-Processing/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
