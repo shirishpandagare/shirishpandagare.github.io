@@ -25,10 +25,11 @@ import seaborn as sns
 
 ## Import Amazon Music Review Dataset
 
-For this project, I’ll use the review dataset from the [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/) repository of the University of California, San Diego. In this repository, there is a small sample dataset of the product reviews for each category. The parser I will develop can be applied to any of the product categories, however, I have selected [Digital Music reviews dataset](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Digital_Music_5.json.gz) for the sake of simplicity.
+For this project, I’ll use the review dataset from the [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/) repository of the University of California, San Diego. In this repository, there are small sample dataset of the product reviews for each category. The parser I will develop can be applied to any of the product categories, however, I have selected [Digital Music reviews dataset](http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Digital_Music_5.json.gz) for the sake of simplicity.
 
 The following function is to load the dataset from the repository:
 ```python
+# Function to load dataset
 def load_data(path):
     data = pd.read_json(path)
     return data
