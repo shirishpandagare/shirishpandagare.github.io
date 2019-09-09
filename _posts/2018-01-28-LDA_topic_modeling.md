@@ -8,7 +8,11 @@ excerpt: "LDA, Text Mining, Topic Modeling"
 mathjax: "true"
 ---
 
-<!-- # H1 Heading
+# Introduction
+# Import Amazon Music Review Dataset
+# Clean, Tokenize, & Lemmatize
+# Build the LDA Model
+
 
 ## H2 Heading
 
@@ -60,4 +64,4 @@ Here's some math:
 
 $$z=x+y$$
 
-You can also put it inline $$z=x+y$$ -->
+You can also put it inline $$z=x+y$$
