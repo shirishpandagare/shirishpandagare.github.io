@@ -1,10 +1,10 @@
 ---
 layout: archive
-permalink: /machine-learning/
-title: "Machine Learning Posts by Tags"
+permalink: /Natural-Langauge-Processing/
+title: "Natural Language Processing Posts by Tags"
 author_profile: true
 header:
-  image: "/images/Machine_learning.jpeg"
+  image: "/images/nlp.png"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
