@@ -1,10 +1,10 @@
 ---
 layout: posts
 permalink: /Natural-Langauge-Processing/
-title: "Natural Language Processing"
+title: "Topic Modeling"
 author_profile: true
 header:
-  image: "/images/fort point.png"
+  image: "/images/wordcloud.png"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
