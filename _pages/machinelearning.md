@@ -1,6 +1,6 @@
 ---
 layout: posts
-permalink: /data-wrangling/
+permalink: /Natural-Langauge-Processing/
 title: "Natural Language Processing"
 author_profile: true
 header:
