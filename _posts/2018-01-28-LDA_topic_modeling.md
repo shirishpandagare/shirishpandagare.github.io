@@ -25,7 +25,7 @@ import seaborn as sns
 ```
 
 ## Import Amazon Music Review Dataset
-For this project, I am using Amazon review dataset which can be found here[link](http://jmcauley.ucsd.edu/data/amazon/)
+For this project, I am using Amazon review dataset which can be found [here](http://jmcauley.ucsd.edu/data/amazon/). 
 Let’s import the Amazon music review dataset
 news groups dataset and retain only 4 of the target_names categories.
 
