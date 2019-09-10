@@ -39,7 +39,31 @@ The dataset should look something like this:
 <img src="{{ site.url }}{{ site.baseurl }}/images/01_LDA/data_head_Sample.png" alt="linearly separable data">
 
 ## Clean, Tokenize, & Lemmatize
-The following function will remove the special characters from the review text, lowercase the words, tokenize and lemmatize the text. These addition and
+The following function will remove the special characters from the review text, lowercase the words, tokenize and lemmatize the text.
+```python
+"""Function to load dataset"""
+def remove_characters(self, sentence):
+        sentence = re.sub( r"\W", " ", sentence, flags=re.I )
+        return sentence
+
+def lower_case(self, sentence):
+    sentence = sentence.split()
+    x_list = [word.lower() for word in sentence]
+    return " ".join( x_list )
+
+def remove_stopwords(self, sentence):
+    word_list = [word for word in sentence.split() if word not in self.stop_words]
+    sentence = " ".join( word_list )
+    return sentence
+
+def word_length(self, sentence):
+    word_list = [word for word in sentence.split() if len( word ) > 3]
+    sentence = " ".join( word_list )
+      return sentence
+```
+
+
+
 ## Build the LDA Model
 
 
