@@ -41,7 +41,7 @@ The dataset should look something like this:
 ## Clean, Tokenize, & Lemmatize
 The following function will remove the special characters from the review text, lowercase the words, tokenize and lemmatize the text.
 ```python
-"""Function to load dataset"""
+
 def remove_characters(self, sentence):
         sentence = re.sub( r"\W", " ", sentence, flags=re.I )
         return sentence
@@ -61,8 +61,6 @@ def word_length(self, sentence):
     sentence = " ".join( word_list )
       return sentence
 ```
-
-
 
 ## Build the LDA Model
 
