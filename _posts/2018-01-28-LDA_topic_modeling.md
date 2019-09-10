@@ -10,7 +10,7 @@ mathjax: "true"
 
 ## Introduction
 
-In topic modeling, we followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm. In this post, we will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon digital music review dataset for demonstration.
+In topic modeling, I followed a structured workflow to build an insightful topic model based on the Latent Dirichlet Allocation (LDA) algorithm. In this post, I will build the topic model using gensim’s native LdaModel and explore multiple strategies to effectively visualize the results using matplotlib plots. I will be using Amazon digital music review dataset for demonstration.
 Let’s begin by importing the packages. The following are the packages imported for this project.
 
 ```python
@@ -29,14 +29,17 @@ For this project, I’ll use the review dataset from the [Amazon product data](h
 
 The following function is to load the dataset from the repository:
 ```python
-# Function to load dataset
+"""Function to load dataset"""
 def load_data(path):
     data = pd.read_json(path)
     return data
 ```
+The dataset should look something like this:
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/01_LDA/data_head_Sample.png" alt="linearly separable data">
 
 ## Clean, Tokenize, & Lemmatize
+The following function will remove the special characters from the review text, lowercase the words, tokenize and lemmatize the text. These addition and
 ## Build the LDA Model
 
 
