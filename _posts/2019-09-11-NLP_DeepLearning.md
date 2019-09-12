@@ -24,6 +24,13 @@ Human language is a method to convey where words are a *signifier* that maps to 
 * Coreference (what is the reference of "He" or "it" in the document.)
 * Question Answering
 
+Representing words is always a challenge in NLP. In a typical bag-of-words model, each word is a unique token with no relationship with other words. For example, words like "snow" and "boarding" will be assigned as unique tokens without any association even though they may frequently appear in the same sentence or context. Word2vec model can learn one iteration at a time and eventually be able to encode the conditional probability of a word given its context. The following is the idea for this model:
+
+1. Design a model whose parameters are the word vectors.
+2. Train this model on a certain dataset with an objective.
+3. At every iteration, we shall evaluate the errors, follow an update rule which penalizes the model parameters that caused the error.
+4. Thus we will learn our word vectors. 
+
 
 
 
