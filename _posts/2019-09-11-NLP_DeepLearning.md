@@ -28,8 +28,8 @@ Representing words is always a challenge in NLP. In a typical bag-of-words model
 
 1. Design a model whose parameters are the word vectors.
 2. Train this model on a certain dataset with an objective.
-3. At every iteration, we shall evaluate the errors, follow an update rule which penalizes the model parameters that caused the error.
-4. Thus we will learn our word vectors. 
+3. At every iteration, we shall evaluate the errors, penalize the model parameters that caused the error using update rule.
+4. Thus we will learn our word vectors.
 
 
 
